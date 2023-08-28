@@ -7,10 +7,12 @@ BINARY="flameit-entropy-server"
 
 # Building Tank Monitoring app from source
 echo ""
-echo "####### FlameIT #######"
+echo "####### FlameIT - Immersion Cooling #######"
 echo "Building Tank Monitoring app from source"
-echo "####### ------- #######"
+echo "####### FlameIT - Immersion Cooling #######"
+
 cd ..
+git pull
 go build
 cd install
 
